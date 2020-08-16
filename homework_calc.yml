@@ -1,0 +1,57 @@
+add:
+  datas:
+    -
+      - 1
+      - 2
+      - 3
+    -
+      - 1.1
+      - 2.2
+      - 3.3
+    -
+      - 1+2j
+      - 2+3j
+      - 3+5j
+    -
+      - 'a'
+      - 'b'
+      - 'ab'
+    -
+      - 1
+      - 1.6
+      - 2.6
+    -
+      - 1
+      - 1+6j
+      - 2+6j
+    -
+      - 1.1
+      - 1+7j
+      - 2.1+7j
+    -
+      - 1
+      - 'a'
+      - 'TypeError'
+  ids:
+    - 'int+int'
+    - 'float+float'
+    - 'complex+complex'
+    - 'string+string'
+    - 'int+float'
+    - 'int+complex'
+    - 'float+complex'
+    - 'num+string'
+
+div:
+  datas:
+    -
+      - 9
+      - 3
+      - 3
+    -
+      - 6
+      - 0
+      - '除数不能为0'
+  ids:
+    - '除数为0'
+    - '除数不为0'
